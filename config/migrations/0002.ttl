@@ -1,0 +1,26 @@
+@prefix ns1: <http://mu.semte.ch/vocabularies/core/> .
+@prefix ns10: <http://www.w3.org/ns/adms#> .
+@prefix ns11: <http://data.lblod.info/vocabularies/erediensten/> .
+@prefix ns12: <http://www.w3.org/ns/regorg#> .
+@prefix ns13: <http://data.vlaanderen.be/ns/persoon#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns4: <http://schema.org/> .
+@prefix ns5: <https://data.vlaanderen.be/ns/generiek#> .
+@prefix ns6: <http://www.w3.org/ns/org#> .
+@prefix ns7: <https://data.vlaanderen.be/ns/adres#> .
+@prefix ns8: <http://www.w3.org/ns/locn#> .
+@prefix ns9: <https://data.vlaanderen.be/ns/organisatie#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.lblod.info/id/representatieveOrganen/e224c637ba8bb0e5dfbb87da225b4652> a ns11:RepresentatiefOrgaan ;
+    ns11:typeEredienst <http://lblod.data.gift/concepts/9d8bd472a00bf0a5c7b7186606365a52> ;
+    ns1:uuid "e224c637ba8bb0e5dfbb87da225b4652"^^xsd:string ;
+    ns3:prefLabel "Executief van de Moslims van België"^^xsd:string ;
+    ns10:identifier <http://data.lblod.info/id/identificatoren/f5e3ad5be288f9ea466c7e9948c46c74> ;
+    ns6:hasPost <http://data.lblod.info/id/posities/a188f65c1a9be660a9a823d08a02f240>,
+        <http://data.lblod.info/id/posities/b81693faf82ae1c821ea57b41f6635aa>,
+        <http://data.lblod.info/id/posities/cb87d53aa68313c825bda7c90cb24a78> ;
+    ns6:hasPrimarySite <http://data.lblod.info/id/vestigingen/6addff10a6b9fbb984bf759b94f2bb39> ;
+    ns12:orgStatus <http://lblod.data.gift/concepts/63cc561de9188d64ba5840a42ae8f0d6> .
+

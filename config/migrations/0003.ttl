@@ -1,0 +1,34 @@
+@prefix ns1: <http://mu.semte.ch/vocabularies/core/> .
+@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://lblod.data.gift/concepts/99536dd6eb0d2ef38a89efafb17e7389> a <http://lblod.data.gift/vocabularies/organisatie/TypeEredienst> ;
+    ns1:uuid "99536dd6eb0d2ef38a89efafb17e7389" ;
+    ns2:inScheme <http://lblod.data.gift/concept-schemes/5be1fce008d73105d9bc6de9e488b0b9> ;
+    ns2:prefLabel "Anglicaans" ;
+    ns2:topConceptOf <http://lblod.data.gift/concept-schemes/5be1fce008d73105d9bc6de9e488b0b9> .
+
+
+<http://lblod.data.gift/concepts/63cc561de9188d64ba5840a42ae8f0d6> a <http://lblod.data.gift/vocabularies/organisatie/OrganisatieStatusCode> ;
+    ns1:uuid "63cc561de9188d64ba5840a42ae8f0d6" ;
+    ns2:inScheme <http://lblod.data.gift/concept-schemes/b8dcb04f0d1feb86ff01cc0677363b20> ;
+    ns2:prefLabel "Actief" ;
+    ns2:topConceptOf <http://lblod.data.gift/concept-schemes/b8dcb04f0d1feb86ff01cc0677363b20> .
+
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/04f65457bf125b2dc59fd71917ac3d08> a <http://lblod.data.gift/vocabularies/organisatie/BestuursorgaanClassificatieCode> ;
+    ns1:uuid "04f65457bf125b2dc59fd71917ac3d08" ;
+    ns2:inScheme <http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode> ;
+    ns2:prefLabel "Kerkraad" ;
+    ns2:topConceptOf <http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode> .
+
+
+<http://lblod.data.gift/concepts/67548f1fe5bf52e5a7ad33dcce47472d> a <http://lblod.data.gift/vocabularies/organisatie/EredienstBeroepen> ;
+    ns1:uuid "67548f1fe5bf52e5a7ad33dcce47472d" ;
+    ns2:inScheme <http://lblod.data.gift/concept-schemes/0637cccd657df25049af6c4580c6b2be> ;
+    ns2:prefLabel "Kapelaan van de andere kerken" ;
+    ns2:topConceptOf <http://lblod.data.gift/concept-schemes/0637cccd657df25049af6c4580c6b2be> .
+
+<http://lblod.data.gift/concepts/9d6f49b3d923b437ec3a91e8b5fa6885> a <http://lblod.data.gift/vocabularies/organisatie/BedienaarFinanceringCode> ;
+    ns1:uuid "9d6f49b3d923b437ec3a91e8b5fa6885" ;
+    ns2:inScheme <http://lblod.data.gift/concept-schemes/7d7b1cf62d032f69c94f1544ddf13b38> ;
+    ns2:prefLabel "FOD Financiën" ;
+    ns2:topConceptOf <http://lblod.data.gift/concept-schemes/7d7b1cf62d032f69c94f1544ddf13b38> .
